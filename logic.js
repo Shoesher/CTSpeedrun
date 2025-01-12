@@ -1,6 +1,6 @@
 // Initialize game variables with defaults
 let key1 = localStorage.getItem("key1") || "z";
-let key2 = localStorage.getItem("key2") || "w";
+let key2 = localStorage.getItem("key2") || "x";
 let timer = parseInt(localStorage.getItem("timer"), 10) || 10;
 let input = [];
 let interval;
@@ -12,7 +12,7 @@ keyRButton.textContent = key2;
 //update user settings
 function settingsHandler() {
     const newKey1 = document.getElementById("new_key1").value || "z";
-    const newKey2 = document.getElementById("new_key2").value || "w";
+    const newKey2 = document.getElementById("new_key2").value || "x";
     const newTimer = parseInt(document.getElementById("timer-duration").value, 10) || 10;
 
     //save to localStorage
