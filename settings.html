@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpel Tunnel Speedrun</title>
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="settings-form">
+            <label for="key1">Key1:</label>
+            <input type="text" id="new_key1">
+    
+            <label for="key2">Key2:</label>
+            <input type="text" id="new_key2">
+    
+            <label for="timer-duration">Timer Duration:</label>
+            <select id="timer-duration" name="timer-duration">
+                <option value="10">10 seconds</option>
+                <option value="15">15 seconds</option>
+                <option value="30">30 seconds</option>
+                <option value="45">45 seconds</option>
+                <option value="60">1 minute</option>
+            </select>
+    
+            <button type="submit" onclick="settingsHandler()">Save Settings</button>
+        </form>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>

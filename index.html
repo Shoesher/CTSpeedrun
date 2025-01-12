@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpal Tunnel Speedrun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Carpal Tunnel Speedrun</h1>
+    <div class="game-container">
+        <p id="instructions">Learn to alternative click in Osu!</p>
+        <div id="keys">
+            <button id="keyL"></button>
+            <button id="keyR"></button>
+        </div>
+        <input type="text" id="userInput" placeholder="Type here..." autocomplete="off">
+        <button id="startButton" onclick="gameTime()">Start</button>
+        <p id="timer">Timer: ...</p>
+        <p id="message"></p>
+    </div>
+    <a href="settings.html" target="_blank" id="settingsLink">Settings</a>
+
+    <script src="logic.js"></script>
+</body>
+</html>
